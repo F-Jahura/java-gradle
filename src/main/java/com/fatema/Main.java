@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         // Press Alt+Enter with your caret at the highlighted text to see how
         // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        System.out.printf("Hello world! It is Fatema.");
         System.out.println();
         var capitalizedWord = StringUtils.capitalize("hexlet");
         System.out.println(capitalizedWord);
@@ -19,5 +19,10 @@ public class Main {
             // for you, but you can always add more by pressing Ctrl+F8.
             System.out.println("i = " + i);
         }
+    }
+
+    public static double getSquare(int a, int b, int r){
+        double square = 0;
+        return square;
     }
 }
